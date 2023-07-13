@@ -8,7 +8,7 @@ public class CashbackHackServiceTest {
     CashbackHackService service = new CashbackHackService();
 
     @Test
-    void minAmount() {
+    public void minAmount() {
 
         int amount = 1;
 
@@ -19,7 +19,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    void minAmountPlusOne() {
+    public void minAmountPlusOne() {
 
         int amount = 2;
 
@@ -30,7 +30,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    void AmountLessBoundary() {
+    public void AmountLessBoundary() {
 
         int amount = 600;
 
@@ -41,7 +41,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    void AmountEqualBoundaryMinusOne() {
+    public void AmountEqualBoundaryMinusOne() {
 
         int amount = 999;
 
@@ -52,7 +52,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    void AmountEqualBoundary() {
+    public void AmountEqualBoundary() {
 
         int amount = 1000;
 
@@ -63,7 +63,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    void AmountEqualBoundaryPlusOne() {
+    public void AmountEqualBoundaryPlusOne() {
 
         int amount = 1001;
 
@@ -74,7 +74,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    void AmountMoreBoundary() {
+    public void AmountMoreBoundary() {
 
         int amount = 3_550;
 
@@ -85,7 +85,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    void AmountBigMoreBoundary() {
+    public void AmountBigMoreBoundary() {
 
         int amount = 2_556_594;
 
